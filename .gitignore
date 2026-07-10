@@ -1,0 +1,46 @@
+# --- Archiso / ISO build artifacts ---
+work/
+out/
+*.iso
+*.iso.sig
+*.img
+*.img.xz
+
+# --- Package build artifacts (makepkg / AUR) ---
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.pkg.tar.gz
+src/
+pkg/
+
+# --- Logs ---
+*.log
+build.log
+
+# --- OS junk ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Secrets / local config (never commit) ---
+*.key
+*.pem
+*.env
+config.local.*
+
+# --- Temp / scratch ---
+tmp/
+temp/
+*.tmp
+*.bak
